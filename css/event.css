@@ -1,0 +1,159 @@
+article {
+    margin-top: 50px;
+}
+
+
+/*sec2-------------------------*/
+.sec2 {
+    text-align: center;
+}
+
+.sec2 select {
+    padding: 10px 15px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.sec2 input.date {
+    padding: 10px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.sec2 input.search {
+    padding: 10px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.sec2 button {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+/*sec3..................*/
+.sec3 {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.sec3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.sec3 ul li {
+    width: 30%;
+    margin-bottom: 35px;
+    background-color: white;
+    position: relative;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border: 1px solid rgb(183, 183, 183);
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.sec3 ul li:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+
+.sec3 ul li div.content {
+    padding: 20px;
+}
+
+
+.sec3 ul li div.content h3 {
+    font-family: HanaMin;
+    font-size: 2.4rem;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.sec3 ul li div.content i {
+    margin-top: 10px;
+}
+
+.sec3 ul li div.content p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sec3 ul li img {
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.sec3 ul li:hover img{
+    opacity: 1;
+}
+
+.sec3 div.date {
+    display: flex;
+}
+
+.sec3 div.time {
+    display: flex;
+}
+
+.sec3 div.line {
+    /* background-color: red; */
+    text-align: right;
+    padding-right: 50px;
+    /* font-size: 2rem; */
+}
+
+.sec3 div.line p {
+    font-size: 2rem;
+}
+
+.sec3 p.event {
+    background-color: #656565;
+    display: inline-block;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 266px;
+    left: 245px;
+    font-family: HanaMin;
+}
+
+
+/*sec4---------------------*/
+
+.sec4 {
+    text-align: center;
+}
+
+.sec4 a {
+    display: inline-block;
+    background-color: #CFCFCF;
+    padding: 10px 15px;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.sec4 a:hover{
+    color: white;
+    background-color: #656565;
+}
