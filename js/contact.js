@@ -6,6 +6,7 @@ let content = document.querySelector(".content");
 
 
 submit.addEventListener("click", function (e) {
+    e.preventDefault();
     if (name.value === "") {
         alert("請輸入姓名");
         return;
@@ -25,5 +26,9 @@ submit.addEventListener("click", function (e) {
     if (name.value !== "" && phone.value !== "" && email.value !== "" && content.value !== "") {
         alert(`姓名:${name.value}\n電話號碼:${phone.value}\n電子信箱:${email.value}\n\n傳送成功`);
     }
+    name.value = "";
+    phone.value = "";
+    content.value = "";
+    email.value = "";
 });
 
